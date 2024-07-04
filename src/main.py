@@ -15,12 +15,10 @@ def user_interaction():
 
     user_class.filter_vacancies(keyword)
     user_class.top_n_salary(top_n)
-    a = Saved_JSON()
-    a.load_file(user_class.get_vacancies_list(user_input))
+    save_file = Saved_JSON()
+    save_file.load_file(user_class.get_vacancies_list(user_input))
     for vacancy in user_class.vacancies_list:
         print(vacancy)
-
-
 
 
 if __name__ == "__main__":

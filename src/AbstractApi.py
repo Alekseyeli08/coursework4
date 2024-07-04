@@ -11,7 +11,7 @@ class AbstractApi(ABC):
         pass
 
 
-class HH_Api(AbstractApi):
+class HH(AbstractApi):
     """
     Класс для получания вакансий по ключевому слову
     """

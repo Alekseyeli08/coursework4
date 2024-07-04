@@ -7,7 +7,7 @@ class Vacancy:
         self.salary: int = salary
         self.description: str = self._validate(description)
         self.schedule: str = schedule
-        self.currency = currency
+        self.currency:str = currency
 
     @staticmethod
     def _validate(description: str | None) -> str:
