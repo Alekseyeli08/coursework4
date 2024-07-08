@@ -2,6 +2,9 @@ from src.AbstractApi import HH
 
 
 class UserInteractive:
+    """
+    Класс для юзера(сортировка и поиск)
+    """
     def __init__(self):
         self.vacancies_list = []
 
